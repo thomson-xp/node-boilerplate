@@ -55,7 +55,11 @@ if (Array.isArray(appModules)) {
 }
 
 
-app.get('*', (req, res) => res.status(404).message('NOTFOUND').return());
+app.get('*', (req, res) => res.status(200).message('GET').return());
+app.post('*', (req, res) => res.status(200).message('POST').return());
+app.put('*', (req, res) => res.status(200).message('PUT').return());
+
+
 
 // =======================
 // Start the server
