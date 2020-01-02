@@ -1,0 +1,418 @@
+{
+	"NOTFOUND": "Requested route not found",
+	"RESULT_NOT_FOUND": "Search results not found",
+	"NORESOURCE": "Requested resource not found",
+	"USERS_LIST": "User list found",
+	"PLATFORM_ERROR": "Platform should be specified in the header (x-platform)",
+
+	"NPI_VALIDATION_SUCCESS": "NPI Number validated successfully",
+	"NPI_VALIDATION_FAILURE": "NPI Number validation failed",
+	"NPI_SERVER_DOWN": "NPI number could not be verified",
+	"NPI_EXISTS" : "NPI number already in use, please login",
+
+	"LANGUAGE_LISTING_SUCCESS": "Languages listed successfully",
+	"LANGUAGE_LISTING_FAILED": "Languages listing failed",
+
+	"PATIENT_SIGNUP_SUCCESSFUL": "Patient created successfully",
+	"PATIENT_SIGNUP_FAILED": "Patient signup failed",
+	
+	"ASSOCIATE_SIGNUP_SUCCESSFUL": "Associate staff created successfully",
+	"ASSOCIATE_SIGNUP_FAILED": "Associate staff signup failed",
+	
+	"PROVIDER_SIGNUP_SUCCESS":"Signed up successfully.Please check your email for activate your account!",
+	"PROVIDER_SIGNUP_FAILURE":"Provider signup failed!",
+
+	"TAXONOMY_LISTING_SUCCESS": "Taxonomy listed successfully",
+	"TAXONOMY_LIST_FAILED": "Taxonomy listing failed",
+
+	"DUPLICATE_ENTRY": "Duplicate entry",
+	"MULTIPLE_NOT_ALLOWED": "Multiple records not allowed",
+
+	"LICENSE_ADDED_SUCCESSFULLY": "License added successfully",
+	"LICENSE_ADDITION_FAILED": "Failed to add new license",
+
+	"NO_PROVIDER": "Provider with the given id does not exist",
+
+	"LICENSE_DELETION_FAILED": "License deletion failed",
+	"LICENSE_INVALID_DETAILS": "Invalid provider/license details",
+	"LICENSE_DELETION_SUCCESS": "License deleted successfully",
+
+	"USER_NOT_EXIST":"User not exist",
+
+	"LICENSE_UPDATION_SUCCESS": "License updated successfully",
+	"LICENSE_UPDATION_FAILED": "License update failed",
+
+	"GET_PROVIDER_PROFILE_SUCCESS":"Provider profile found successfully",
+	"GET_PROVIDER_PROFILE_FAILURE":"Provider profile not found",
+	"UPDATE_PROVIDER_PROFILE_SUCCESS":"Provider profile updated successfully",
+	"UPDATE_PROVIDER_PROFILE_FAILURE":"Provider profile update failed",
+
+	"IMAGE_UPLOAD_SUCCESS":"Image uploaded successfully",
+	"IMAGE_UPLOAD_FAILURE":"Image uploading failed",
+
+
+	"ADD_PROVIDER_CONTACT_SUCCESS":"Provider contacts added successfully",
+	"ADD_PROVIDER_CONTACT_FAILURE":"Failed to add provider contacts",
+	"ADD_PROVIDER_CONTACT_FAILURE_ZIP": "Failed to add contacts. Please check ZIP",
+
+	"CONTACT_NOT_EXIST":"Provider address not found",
+	"CONTACT_EXIST":"Provider address found",
+	"UPDATE_PROVIDER_CONTACT_SUCCESS":"Provider address updated successfully",
+	"UPDATE_PROVIDER_CONTACT_FAILURE":"Failed to update provider address",
+	"DELETE_PROVIDER_CONTACT_SUCCESS":"Provider address deleted successfully",
+	"DELETE_PROVIDER_CONTACT_FAILURE":"Failed to delete provider address",
+	"MARK_AS_DEFAULT_SUCCESS":"Provider contact default set successfully",
+	"MARK_AS_DEFAULT_FAILURE":"Provider contact default setting failed",
+
+	"INVALID_AFFILIATION_DETAILS": "Invalid affiliation details",
+	"AFFILIATION_UPDATION_SUCCESS": "Hospital affiliation updated successfully",
+	"AFFILIATION_UPDATION_FAILED": "Failed to update hospital affiliation",
+
+	"AFFILIATION_DELETION_SUCCESS": "Hospital affiliation deleted successfully",
+	"AFFILIATION_DELETION_FAILED": "Failed to delete hospital affiliation",
+
+	"INVALID_GENDER_RELATIONSHIP_DATA": "Invalid Gender/Relationship data",
+
+	"INSURANCE_DELETION_FAILED": "Failed to delete insurance",
+	"INSURANCE_DELETION_SUCCESS": "Insurance deleted successfully",
+	
+	"INSURANCE_UPDATION_FAILED": "Failed to update insurance",
+	"INSURANCE_UPDATION_SUCCESS": "Insurance updated successfully",
+	"INSURANCE_INVALID_DETAILS": "Invalid insurance details",
+
+	"INSURANCE_ADDITION_SUCCESS": "Insurance added successfully",
+	"INSURANCE_ADDITION_FAILED": "Failed to add insurance",
+
+	"GET_PATIENT_PROFILE_SUCCESS":"Patient profile found successfully",
+	"GET_PATIENT_PROFILE_FAILURE":"Patient profile not found",
+
+	"PROVIEDER_LISTING_SUCCESS": "Providers listed successfully",
+	"PROVIEDER_LISTING_FAILED": "Failed to list providers",
+
+	"EMERGENCY_CONTACT_ADDED": "Emergency contact added successfully",
+	"EMERGENCY_CONTACT_ADD_FAILED": "Failed to add emergency contact",
+
+	"EMERGENCY_CONTACT_UPDATED": "Emergency contact updated successfully",
+	"EMERGENCY_CONTACT_UPDATE_FAILED": "Failed to update emergency contact ",
+
+	"EMERGENCY_CONTACT_INVALID": "Invalid contact details",
+	
+	"EMERGENCY_CONTACT_DELETED": "Emergency contact deleted successfully",
+	"EMERGENCY_CONTACT_DELETE_FAILED": "Failed to delete emergency contact",
+	
+	"ADD_EMPLOYER_SUCCESS":"Employer added successfully",
+	"ADD_EMPLOYER_FAILURE":"Failed to add Employer",
+
+	"UPDATE_EMPLOYER_SUCCESS":"Employer details updated successfully",
+	"UPDATE_EMPLOYER_FAILURE":"Failed to update Employer details",
+
+	"DELETE_EMPLOYER_SUCCESS":"Employer details deleted successfully",
+	"DELETE_EMPLOYER_FAILURE":"Failed to delete Employer details",
+
+	"ADD_DOCUMENT_TITLE_SUCCESS":"Document title added successfully",
+	"ADD_DOCUMENT_TITLE_FAILURE":"Failed to add document title",
+
+	"UPDATE_DOCUMENT_TITLE_SUCCESS":"Document title updated successfully",
+	"UPDATE_DOCUMENT_TITLE_FAILURE":"Document title update failed",
+
+	"REMOVE_DOCUMENT_SECTION_SUCCESS":"Document title removed successfully",
+	"REMOVE_DOCUMENT_SECTION_FAILURE":"Document title removal failed",
+
+	"DOCUMENT_UPLOAD_SUCCESS":"Document uploaded successfully",
+	"DOCUMENT_UPLOAD_FAILURE":"Document upload failed",
+
+	"DOCUMENT_FETCH_SUCCESS": "Documents fetched successfully",
+	"DOCUMENT_FETCH_FAIL": "Failed to fetch documents",
+
+	"REMOVE_DOCUMENT_SUCCESS":"Document removed successfully",
+	"REMOVE_DOCUMENT_FAILURE":"Document remove failed",
+
+	"PRIMARY_PROVIDER_UPDATION_FAILED": "Failed to update primary provider details",
+	"PRIMARY_PROVIDER_UPDATED": "Successfully updated primary provider details",
+	"CANNOT_EDIT_PROVIDER": "Cannot edit registered cura provider",
+
+	"PRIMARY_PHYSICIAN_FAILED": "Failed to add primary physician",
+	"PRIMARY_PHYSICIAN_ADDED": "Successfully added primary care physician",
+
+
+	"PRIMARY_PHYSICIAN_DELETE_FAILED": "Failed to delete primary care provider",
+	"PRIMARY_PHYSICIAN_DELETED": "Primary care physician deleted successfully",
+
+	"PROVIDER_NOT_SPECIFIED": "Please specify provider id. If you are adding a non-cura provider set is_cura_provider key to false",
+	"PATIENT_NOT_SPECIFIED": "Please specify patient_id",
+
+	"INVALID_MARITAL_ID": "Invalid marital status ID",
+	"INVALID_GENDER_ID": "Invalid gender ID",
+	"INVALID_DOCUMENT_DETAILS": "Invalid document details",
+
+	"GET_PROVIDER_SETTINGS_FAILURE":"Provider settings not found",
+	"GET_PROVIDER_SETTINGS_SUCCESS":"Provider settings found",
+
+	"DASHBOARD_SUCCESS":"Dashboard data retrieved successfully",
+	"DASHBOARD_FAILED":"Failed to retrieve dashboard data",
+
+	"PATIENT_NOT_EXISTS" : "Patient does not not exist",
+	"PATIENT_DETAILS_FAIL" : "Failed to retrieve patient details",
+	"PATIENT_DETAILS_SUCCESS" : "Patient details retrieved successfully",
+	"USER_EXISTS" : "Email already exists in Cura",
+
+	"PATIENT_CREATION_SUCCESSFUL":"Patient created successfully",
+	"PATIENT_CREATION_FAILED":"Patient creation failed",
+
+	"PROVIDER_EXIST":"Provider exists with this email",
+	"ASSOCIATE_EXIST":"Associate exists with this email",
+	
+	"APPOINTMENT_LIST_SUCCESS" : "Appointment list retrieved successfully",
+	"APPOINTMENT_LIST_FAILED" : "Failed to retrieve appointment list ",
+
+	"IMAGE_REMOVED": "Image removed successfully",
+	"FAILED_TO_REMOVE_IMAGE": "Failed to remove the image",
+	"ERROR_WITH_S3": "Delete operation encountered an error. Please try again later",
+
+	"IMAGE_UPLOADED": "Image uploaded successfully",
+	"IMAGE_UPLOAD_FAILED": "Failed to upload image",
+
+	"DESCRIPTION_UPDATED": "Description upated successfully",
+	"DESCRIPTION_UPDATE_FAILED": "Failed to update description",
+
+	"NOTFOUND_OR_INVALID_PRIVILEDGE": "Specified document does not exist or invalid privileges",
+	"PATIENT_DETAILS_SUCCESSFUL" : "Patient details retrieved successfully",
+	"PATIENT_DETAILS_FAILED" : "Failed to retrieve patient details",
+	"PATIENT NOT FOUND"  : "Patient not found",
+	"DELETE_PRIVILEDGE" : "You can only delete images uploaded by yourself",
+
+	"PROVIDER NOT FOUND" : "Provider not found",
+	"PROVIDER_DETAILS_SUCCESSFUL" : "Provider details retrieved successfully",
+	"PROVIDER_DETAILS_FAILED" : "Failed to retrieve provider details",
+
+	"ACTIVE_SLOT_ADDRESS": "Sorry. This address linked with one of your availability slots",
+	"ACTIVE_APPOINTMENT_ADDRESS": "Sorry. There are active appointments in this address",
+	"ADDRESS_IN_USE": "This address is linked with one or more appointments/available slots",
+
+	"MEDICAL_HISTORY_ADD_SUCCESS":"Medical history added successfully",
+	"MEDICAL_HISTORY_ADD_FAILURE":"Adding medical history failed",
+
+	"SURGICAL_HISTORY_ADD_SUCCESS":"Surgical history added successfully",
+	"SURGICAL_HISTORY_ADD_FAILURE":"Adding surgical history failed",
+
+	"PATIENT_SURGICAL_GET_SUCCESS":"Patient surgical history found successfully",
+	"PATIENT_SURGICAL_GET_FAILURE":"Patient surgical history not found",
+
+	"PATIENT_MEDICATION_ADD_SUCCESS":"Patient medication added successfully",
+	"PATIENT_MEDICATION_ADD_FAILURE":"Adding patient medication failed",
+
+	"PATIENT_MEDICATION_GET_SUCCESS":"Patient medication found successfully",
+	"PATIENT_MEDICATION_GET_FAILURE":"Patient medication failed to load",
+
+	"PATIENT_MEDICATION_UPDATE_SUCCESS":"Patient medication data updated successfully",
+	"PATIENT_MEDICATION_UPDATE_FAILURE":"Patient medication data update failed",
+
+	"PATIENT_MEDICATION_DELETE_SUCCESS":"Patient medication data deleted successfully",
+	"PATIENT_MEDICATION_DELETE_FAILURE":"Patient medication data deletion failed",
+
+	"PATIENT_SOCIAL_HISTORY_ADD_SUCCESS":"Patient social history data added successfully",
+	"PATIENT_SOCIAL_HISTORY_ADD_FAILURE":"Patient social history data creation failed",
+
+	"PATIENT_SOCIAL_HISTORY_GET_SUCCESS":"Patient social history data found successfully",
+	"PATIENT_SOCIAL_HISTORY_GET_FAILURE":"Patient social history data not found",
+
+	"PATIENT_FAMILY_HISTORY_ADD_SUCCESS":"Patient family history added successfully",
+	"PATIENT_FAMILY_HISTORY_ADD_FAILURE":"Patient family history creation failed",
+
+	"PATIENT_FAMILY_HISTORY_GET_SUCCESS":"Patient family history found successfully",
+	"PATIENT_FAMILY_HISTORY_GET_FAILURE":"Patient family history not found",
+
+	"PATIENT_FAMILY_HISTORY_UPDATE_SUCCESS":"Patient family history updated successfully",
+	"PATIENT_FAMILY_HISTORY_UPDATE_FAILURE":"Patient family history update failed",
+
+	"PATIENT_FAMILY_HISTORY_DELETE_SUCCESS":"Patient family history deleted successfully",
+	"PATIENT_FAMILY_HISTORY_DELETE_FAILURE":"Patient family history deletion failed",
+
+	"PATIENT_ALLERGY_ADD_SUCCESS":"Patient allergy added successfully",
+	"PATIENT_ALLERGY_ADD_FAILURE":"Patient allergy creation failed",
+
+	"PATIENT_VITALS_ADD_SUCCESS":"Patient vitals successfully",
+	"PATIENT_VITALS_ADD_FAILURE":"Patient vitals creation failed",
+
+	"PATIENT_ALLERGY_GET_SUCCESS":"Patient allergy found successfully",
+	"PATIENT_ALLERGY_GET_FAILURE":"Patient allergy not found",
+
+	"PATIENT_VITALS_GET_SUCCESS":"Patient vitals found successfully",
+	"PATIENT_VITALS_GET_FAILURE":"Patient vitals not found",
+
+	"PATIENT_PERSONAL_PHYSICAL_EXAM_ADD_SUCCESS":"Patient personal physical exam added successfully",
+	"PATIENT_PERSONAL_PHYSICAL_EXAM_ADD_FAILURE":"Patient personal physical exam creation failed",
+
+	"PATIENT_PERSONAL_PHYSICAL_EXAM_GET_SUCCESS":"Patient personal physical exam found successfully",
+	"PATIENT_PERSONAL_PHYSICAL_EXAM_GET_FAILURE":"Patient personal physical exam not found",
+
+	"MY_PATIENTS_LIST_SUCCESS" : "Providers patients list retrieved successfully",
+	"MY_PR_FAILURE" : "Failed to retrieve providers patients list",
+
+	"MY_PROVIDERS_LIST_SUCCESS" : "My providers list ",
+	"MY_PROVIDERS_FAILURE" : "Failed to list my providers",
+
+	"GET_ASSOCIATE_PROFILE_SUCCESS": "Associate profile data retrieved successfully.",
+	"GET_ASSOCIATE_PROFILE_FAILURE": "Failed to retrieve associate profile data.",
+
+	"UPDATE_ASSOCIATE_PROFILE_SUCCESS": "Associate profile data updated successfully.",
+	"UPDATE_ASSOCIATE_PROFILE_FAILURE": "Failed to update associate profile data.",
+
+	"ADD_ASSOCIATE_ADDRESS_SUCCESS": "Associate profile data updated successfully.",
+	"ADD_ASSOCIATE_ADDRESS_FAILURE": "Failed to update associate profile data.",
+
+	"REQUEST_STATUS_CHANGE_FAILED" : "Failed to change request status.",
+	"ASSOCIATED_REQUEST_APPROVED" : "Associate approved",
+	"REQUEEST_REJECTED" : "Associate request rejected",
+
+	"ASSOCIATE_LIST_SUCCESS" : "Associates list",
+	"LIST_ASSOCIATES_FAILURE" : "Failed to retrieve associates list ",
+
+	"REQUEST_PROVIDER_SUCCESS" : "Successfully requested provider",
+	"REQUEST_PROVIDER_FAILURE" : "Failed to request provider",
+	"REQUEST_CANCELLED_SUCCESSFULLY" : "Provider request canceled successfully",
+	"REQUEST_NOT_FOUND" : "Request is not found",
+	"PATIENT_MAPPING_SUCCESSFUL" : "Data successfully mapped to the existing patient profile",
+	"INVALID_ALLERGY": "Invalid allergy data",
+
+	"UPDATE_ASSOCIATE_CERTIFICATION_FAILURE" : "Failed to update certifications",
+	"UPDATE_ASSOCIATE_CERTIFICATION_SUCCESS" : "Certificates updated successfully",
+
+	"ASSOCIATE_CERTIFICATION_EXISTS" : "Certification already exists",
+	"ASSOCIATE_CERTIFICATION_NOTFOUND" : "Certificatio  not found",
+
+	"ADD_ASSOCIATE_CERTIFICATION_FAILURE" : "Failed to add certifications",
+	"ADD_ASSOCIATE_CERTIFICATION_SUCCESS" : "Successfully added certifications",
+
+	"ADD_ASSOCIATE_EDUCATION_SUCCESS" : "Associate education details successfully added",
+	"ASSOCIATE_EDUCATION_EXISTS" : "Education details already exists",
+
+	"ADD_ASSOCIATE_EDUCATION_FAILURE" : "Failed to add educaton details",
+	"UPDATE_ASSOCIATE_EDUCATION_FAILURE" : "Failed to update education details",
+
+	"UPDATE_ASSOCIATE_EDUCATION_SUCCESS" : "Education update success",
+	"ASSOCIATE_EDUCATION_NOTFOUND" : "Education details not found",
+
+	"PROVIDER_REMOVED_SUCCESSFULLY" : "Provider removed successfully",
+	"FAILED_TO_REMOVE_PROVIDER" : "Failed to remove provider",
+
+	"ADD_PROVIDER_EDUCATION_SUCCESS" : "Provider education added successfully.",
+	"PROVIDER_EDUCATION_EXISTS" : "Provider education exists",
+	
+	"ADD_PROVIDER_EDUCATION_FAILURE" : "Failed to add provider education",
+
+	"UPDATE_PROVIDER_EDUCATION_SUCCESS" : "Provider education updated successfully.",
+	"UPDATE_PROVIDER_EDUCATION_FAILURE" : "Failed to update provider education.",
+
+	"ADD_PROVIDER_CERTIFICATION_SUCCESS" : "Provider certifications added successfully.",
+	"ADD_PROVIDER_CERTIFICATION_FAILURE" : "Failed to add provider certification",
+
+	"PROVIDER_CERTIFICATION_EXISTS" : "Provider certification exists",
+	"UPDATE_PROVIDER_CERTIFICATION_SUCCESS" : "Provider certifaction added successfully.",
+
+	"PROVIDER_CERTIFICATION_NOTFOUND" : "Certification not found",
+	"UPDATE_PROVIDER_CERTIFICATION_FAILURE" : "Failed to update provider certifications",
+
+	 "REMOVE_ASSOCIATE_ADDRESS_SUCCESS" : "Associate address deleted successfully.",
+	 "REMOVE_ASSOCIATE_ADDRESS_FAILURE" : "Failed to delete associate address",
+	 
+	 "DEFAULT-ADDRESS" : "Default address cannot be deleted",
+	 "N0-ADDRESS" : "Invalid address",
+	 "NOT-FOUND" : "Not found",
+
+	 "REMOVE_ASSOCIATE_CERTIFICATION_SUCCESS" : "Successfully removed associate certifications",
+	 "REMOVE_ASSOCIATE_CERTIFICATION_FAILURE" : "Failed to remove certifications",
+
+	 "REMOVE_ASSOCIATE_EDUCATION_FAILURE" : "Failed to remove education details",
+	 "REMOVE_ASSOCIATE_EDUCATION_SUCCESS" : "Successfully removed education",
+
+	 "ALREADY-REQUESTED" : "Request already in process",
+	 "PROVIDERS-APPOINTMENT-SUCCESS" : "Providers pending tasks details",
+
+	 "PROVIDERS-APPOINTMENT-FAILURE" : "Failed to retrieve task data",
+	 "REMOVE_PROVIDER_EDUCATION_FAILURE" : "Faile to delete provider education",
+
+	 "REMOVE_PROVIDER_EDUCATION_SUCCESS" : "Provider education removed successfully",
+	 "REMOVE_PROVIDER_CERTIFICATION_FAILURE" : "Failed to delete provider certification",
+
+	 "REMOVE_PROVIDER_CERTIFICATION_SUCCESS" : "Provider certifications deleted successfully",
+	 "ADD_PROVIDER_AWARD_SUCCESS" : "Provider awards added successfully",
+
+	 "ADD_PROVIDER_AWARD_FAILURE" : "Failed to add provider awards",
+	 "PROVIDER_AWARD_EXISTS" : "Provider Award exists",
+
+	 "UPDATE_PROVIDER_AWARD_SUCCESS" : "Provider awards added successfully",
+	 "UPDATE_PROVIDER_AWARD_FAILURE" : "Failed to update provider awards",
+
+	 "REMOVE_PROVIDER_AWARD_FAILURE" : "Failed to delete provider award",
+	 "REMOVE_PROVIDER_AWARD_SUCCESS" : "Provider award deleted successfully",
+
+	 "ADD_STAFF_AWARD_SUCCESS" : "Associate awards added successfully",
+	 "STAFF_AWARD_EXISTS" : "Award exists",
+
+	 "ADD_STAFF_AWARD_FAILURE" : "Failed to add award",
+	 "REMOVE_STAFF_AWARD_FAILURE" : "Failed to delete award",
+
+	 "REMOVE_STAFF_AWARD_SUCCESS" : "Award deleted succesfully",
+	 "UPDATE_STAFF_AWARD_SUCCESS" : "Award updated successfully",
+
+	 "UPDATE_STAFF_AWARD_FAILURE" : "Failed to update award",
+
+	 "ZIP_VERIFY_FAILED": "Invalid US ZIP code",
+	 "SMS_SETTING_FAILED": "Failed to updated SMS settings",
+	 "SMS_SETTING_SUCCESS": "Successfully updated SMS settings",
+
+	 "ADDRESS_MARK_AS_DEFAULT_FAILURE" : "Failed to make address default",
+	 "ADDRESS_MARK_AS_DEFAULT_SUCCESS" : "Address marked as default",
+
+	 "ASSOCIATE_CONTACT_NOT_EXIST" : "Assocate not found",
+	 "ASSOCIATE_REJECTED" : "Associate removed",
+
+	 "ASSOCIATE_REJECTE_FAILED" : "Failed to remove associate",
+	 "NO_ASSOCIATES" : "No associates found with the given details",
+
+	 "INVALID_DATE" : "The given date of birth is invalid",
+	 "NO_DATA_FOUND" : "No data found",
+	 
+	 "FETCH_SURVEY_QUESTION_FAILED" : "Failed to get questions",
+	 "FETCH_SURVEY_QUESTION_SUCCESS" : "Successfully retrieved questions",
+
+	 "LIMIT_FILE_SIZE": "File size exceeded",
+	 "DOCUMENT_TYPE_NOT_SUPPORTED": "Document type not supported",
+
+	 "INVAILD_PARAMETER": "Invalid parameters. Please check your request and try again",
+
+	 "PROFILE_IMAGE_SUCCESS": "Successfully updated profile image",
+	 "PROFILE_IMAGE_UPDATE_FAILED": "Failed updated profile image",
+	
+	 "IMMNUNIZATION_ADD_SUCCESS" : "Patient immunization added successfully",
+	 "IMMUNIZATION_ADD_FAILURE" : "Failed to add immnunization",
+	 "VACCINATION_UPDATE_SUCCESS" : "Immnunization update success",
+	 "VACCINATION_UPDATE_FAILURE" : "Failed to update immnunization",
+	 "VACCINATION_REMOVE_FAILURE" : "Failed to remove immnunization",
+	 "VACCINATION_REMOVED_SUCCESS" : "Immunization removed successfully",
+	 "VACCINATION_LIST_SUCCESS" : "Immnunization list retrieved successfully",
+	 "VACCINATION_LIST_FAILURE" : "Failed to retrieve immnunization list",
+
+	 "PROFILE_IMAGE_DELETED": "Profile image deleted successfully",
+	 "PROFILE_IMAGE_DELETE_FAILED": "Failed to delete profile image",
+
+	 "NO_IMAGE": "Specified image does not exist",
+	 "CURRENT_IMAGE_CONSTRAINT": "Current image cannot be deleted",
+
+	 "ASSOCIATE_REMOVE_SELF": "Uh Oh! You can't do that!",
+
+	 "MIN_LENGTH": "First/Last Name should have atleast two characters",
+	 "PHARMACY_ADDED" : "Patient pharmacy added successfully",
+	 "PHARMACY_ADD_FAILED" : "Failed to add patient pharmacy",
+	 "PHARMACY_INVALID" : "Invalid pharmacy",
+	 "PHARMACY_UPDATED" : "Patient pharmacy updated",
+	 "PHARMACY_CONTACT_UPDATE_FAILED" : "Failed to update pharmacy",
+	 "PHARMACY_DELETED" : "Pharmacy deleted",
+	 "PHARMACY_DELETE_FAILED" : "Failed to delete pharmacy",
+	 "PHARMACY_LIST_SUCCESS" : "Pharmacy list success",
+	 "PHARMACY_LIST_FAILURE" : "Pharmacy list failed",
+	 "DELETED_DOESNT_EXIST": "The specified record is already deleted does not exist",
+	 "SMS_SETTING_RETRIEVED_SUCCESS" : "SMS settings data retrieved successfully",
+	 "PRIVILEGE_CHANGE": "Your access privileges has been changed!.\nPlease logout and login again"
+} 

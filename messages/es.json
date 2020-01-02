@@ -1,0 +1,10 @@
+{
+	"NOTFOUND": "Ruta solicitada no encontrada",
+	"RESULT_NOT_FOUND": "Resultados de búsqueda no encontrados",
+	"USERS_LIST": "Lista de usuarios encontrados",
+	"PLATFORM_ERROR": "La plataforma debe especificarse en el encabezado (x-platform)",
+	"NPI_VALIDATION_SUCCESS":"Número de NPI validado con éxito",
+	"NPI_VALIDATION_FAILURE":"La validación del número NPI falló",
+	"NPI_SERVER_DOWN": "El servidor de NPI está caído, por favor intente después",
+	"NPI_EXISTS": "Número de NPI ya en uso, por favor inicie sesión"
+}
