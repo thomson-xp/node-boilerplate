@@ -5,5 +5,5 @@ RUN mkdir -p /usr/src/profile
 COPY . /usr/src/profile
 WORKDIR /usr/src/profile
 RUN yarn
-EXPOSE 5001
+EXPOSE 5001 5002
 CMD [ "node", "server.js" ]
