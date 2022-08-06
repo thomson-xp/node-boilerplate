@@ -26,7 +26,7 @@
     "helmet": "^3.12.2",
     "jsonwebtoken": "^8.3.0",
     "lodash": "^4.17.10",
-    "otp-generator": "^1.1.0",
+    "otp-generator": "^3.0.0",
     "pg": "^6.4.1",
     "pg-hstore": "^2.3.2",
     "request": "^2.87.0",
